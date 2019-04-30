@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_box?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: Admin-8888
+  redis:
+    host:localhost
+    port:6379
+    database:1
+    max-active:8
+    timeout:0
